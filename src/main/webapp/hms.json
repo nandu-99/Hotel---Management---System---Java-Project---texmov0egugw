@@ -1,0 +1,60 @@
+{
+  "rooms": [
+    {
+      "roomNumber": "101",
+      "type": "standard",
+      "status": "available"
+    },
+    {
+      "roomNumber": "102",
+      "type": "deluxe",
+      "status": "booked"
+    },
+    {
+      "roomNumber": "103",
+      "type": "suite",
+      "status": "available"
+    }
+  ],
+  "customers": [
+    {
+      "customerId": "001",
+      "name": "John Doe",
+      "contactInfo": {
+        "phone": "1234567890",
+        "email": "john.doe@example.com"
+      }
+    },
+    {
+      "customerId": "002",
+      "name": "Jane Smith",
+      "contactInfo": {
+        "phone": "0987654321",
+        "email": "jane.smith@example.com"
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "bookingId": "B001",
+      "customerId": "001",
+      "roomNumber": "102",
+      "checkIn": "2024-04-01",
+      "checkOut": "2024-04-05"
+    }
+  ],
+  "services": [
+    {
+      "orderId": "S001",
+      "roomNumber": "102",
+      "serviceType": "food",
+      "details": "Cheeseburger and fries"
+    },
+    {
+      "orderId": "S002",
+      "roomNumber": "101",
+      "serviceType": "cleaning",
+      "details": "Extra cleaning service"
+    }
+  ]
+}

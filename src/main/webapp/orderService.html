@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Room Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Order Room Service</h1>
+    </header>
+    <form action="ServiceServlet" method="post">
+        <label for="roomNumber">Room Number:</label>
+        <input type="text" id="roomNumber" name="roomNumber" required>
+        <label for="serviceType">Service Type:</label>
+        <select id="serviceType" name="serviceType">
+            <option value="food">Food</option>
+            <option value="cleaning">Cleaning</option>
+            <option value="extra">Extra Towels</option>
+        </select>
+        <button type="submit">Order Service</button>
+    </form>
+    <footer>
+        <p>Hotel Management System © 2024</p>
+    </footer>
+</body>
+</html>
