@@ -32,6 +32,38 @@
         "phone": "0987654321",
         "email": "jane.smith@example.com"
       }
+    },
+    {
+      "customerId": "003",
+      "name": "Vivekananda",
+      "contactInfo": {
+        "phone": "9999999999",
+        "email": "vivekananda@gmail.com"
+      }
+    },
+    {
+      "customerId": "004",
+      "name": "charan",
+      "contactInfo": {
+        "phone": "8888888888",
+        "email": "charan@gmail.com"
+      }
+    },
+    {
+      "customerId": "005",
+      "name": "jithendranath",
+      "contactInfo": {
+        "phone": "7777777777",
+        "email": "jithendranath@gmail.com"
+      }
+    },
+    {
+      "customerId": "006",
+      "name": "Sainath",
+      "contactInfo": {
+        "phone": "6666666666",
+        "email": "sainath@gmail.com"
+      }
     }
   ],
   "bookings": [
